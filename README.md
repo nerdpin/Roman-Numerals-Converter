@@ -1,14 +1,13 @@
-# Roman Numerals Converter Application (Python Flask) deployed on AWS EC2 with Cloudformation and AWS CLI
+# Roman Numerals Converter App (Python Flask) deployed on AWS EC2 with Cloudformation and AWS CLI
 ## Description
 The Roman Numerals Converter Application aims to convert the given number to the Roman numerals. The application is to be coded in Python and deployed as a web application with Flask on AWS Elastic Compute Cloud (EC2) Instance using AWS Cloudformation and CLI Services. 
 
 ## Problem Statement
-
 ![Project_103](Project_103_.png)
 
-- Your company has recently started on a project that aims to be one of the most used unit converters and formulas website. Roman Numerals Converter is the part of the project. So you and your colleagues have started to work on the project.
+- Your company has recently started a project that aims to be one of the most used unit converters and formulas websites. Roman Numerals Converter is part of the project. So you and your colleagues have started to work on the project.
 
-- As a first step of the project, developers wrote a basic Python Flask program that converts the given number (between 1 and 3999) to the roman numerals. The program converts only from numbers to Roman numerals, not vice versa and during the conversion following notes should be taken into consideration.
+- As a first step of the project, developers wrote a basic Python Flask program that converts the given number (between 1 and 3999) to the Roman numerals. The program converts only from numbers to Roman numerals, not vice versa, and during the conversion following notes should be taken into consideration.
    
 ```
 Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
@@ -20,9 +19,9 @@ Roman numerals are represented by seven different symbols: I, V, X, L, C, D and 
 - C             100
 - D             500
 - M             1000
-- For example, two is written as II in Roman numeral, just two one's added together. 
+- For example, two is written as II in Roman numeral, just two ones added together. 
 Twelve is written as, XII, which is simply X + II. 
-The number twenty seven is written as XXVII, which is XX + V + II.
+The number twenty-seven is written as XXVII, which is XX + V + II.
 - Roman numerals are usually written largest to smallest from left to right. 
 However, the numeral for four is not IIII. Instead, the number four is written as IV. 
 Because the one is before the five we subtract it making four. 
@@ -35,11 +34,11 @@ There are six instances where subtraction is used:
 
 - User input can be either integer or string, thus the input is checked for the followings,
 
-   - The input should a decimal number within the range of 1 to 3999, inclusively.
+   - The input should be a decimal number within the range of 1 to 3999, inclusively.
    
-   - If the input is less then 1 or greater then 3999, program warns the user using the given html template.
+   - If the input is less than 1 or greater than 3999, the program warns the user using the given HTML template.
 
-   - If the input is string and can not be converted to decimal number, program warns the user using the given html template.
+   - If the input is a string and can not be converted to a decimal number, the program warns the user using the given HTML template.
 
 - Example for user inputs and respective outputs
 
